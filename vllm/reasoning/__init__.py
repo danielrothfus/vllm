@@ -5,6 +5,7 @@ from .deepseek_r1_reasoning_parser import DeepSeekR1ReasoningParser
 from .granite_reasoning_parser import GraniteReasoningParser
 from .kimi_reasoning_parser import KimiReasoningParser
 from .kimi2_reasoning_parser import Kimi2ReasoningParser
+from .kimi3_reasoning_parser import Kimi3ReasoningParser
 
 __all__ = [
     "ReasoningParser",
@@ -13,4 +14,5 @@ __all__ = [
     "GraniteReasoningParser",
     "KimiReasoningParser",
     "Kimi2ReasoningParser",
+    "Kimi3ReasoningParser",
 ]
